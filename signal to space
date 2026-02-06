@@ -1,0 +1,9 @@
+organization = input("Please put your organization (Government or Private): ")
+reason = input("Why do you want to send a signal to space? ")
+
+if organization.lower() not in ["government", "private"]:
+    print("Invalid input for organization.")
+else:
+    # You can add further logic here based on the organization and reason
+    print(f"Organization: {organization}, Reason: {reason}")
+    print("Processing your request...")
